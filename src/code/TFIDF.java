@@ -52,7 +52,7 @@ public class TFIDF {
 					a[j][i] = 0;
 				// System.out.println(FileList.get(i)+FileList.get(j)+":"+a[j][i]+" ");
 			}
-			System.out.print(" ");
+			//System.out.print(" ");
 		}
 		/*
 		 * ClusteringAlgorithm alg = new DefaultClusteringAlgorithm(); Cluster
@@ -60,7 +60,7 @@ public class TFIDF {
 		 * String[FileList.size()]), new AverageLinkageStrategy());
 		 * cluster.toConsole(0);
 		 */// 层次聚类
-		System.out.println("\r<br>相似度计算执行耗时 : "
+		System.out.println("\r相似度计算执行耗时 : "
 				+ (System.currentTimeMillis() - time) / 1000f + " 秒 ");
 
 	}
